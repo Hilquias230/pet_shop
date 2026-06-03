@@ -12,7 +12,7 @@ public class BathMachine {
         } else {
             water -= 10;
             shampoo -= 2;
-            System.out.println("Dando banho no pet...");
+            System.out.println("Banhando o pet...");
         }
     }
     public void supplyWater () {
@@ -44,7 +44,7 @@ public class BathMachine {
     }
     public void putPet () {
         if (isPet) {
-            System.out.println("O pet está já foi colocado na máquina");
+            System.out.println("O pet está já está na máquina");
         } else {
             isPet = true;
             System.out.println("O pet foi colocado na máquina");
